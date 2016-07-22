@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Fajr Salah Alarm"
+        android:layout="@layout/preference_category">
+
+        <CheckBoxPreference
+            android:key="zuhr_alarm"
+            android:title="Fajr Alarm"></CheckBoxPreference>
+
+        <EditTextPreference android:title="Time"
+            android:key="zuhr_alarm_time"
+            android:summary="4:40PM"></EditTextPreference>
+
+        <ListPreference android:title="Alarm Tone"
+            android:key="zuhr_tone"
+            android:summary="Azaan"
+            android:entries="@array/salah_tone_array"
+            android:entryValues="@array/salah_tone_values"
+           
+            ></ListPreference>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title=" Fajr Salah Notification"
+        android:layout="@layout/preference_category_two"
+        >
+
+        <CheckBoxPreference
+            android:key="zuhr_notification"
+            android:title="Fajr Notification"></CheckBoxPreference>
+
+        <ListPreference
+            android:key="zuhr_last_notification"
+            android:summary="15min"
+            android:entryValues="@array/salah_not_values"
+            android:entries="@array/salah_not_array"
+            android:title="Last Mins Notification"></ListPreference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

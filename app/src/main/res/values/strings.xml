@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">SalahHelper</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="string_open">OPEN</string>
+    <string name="string_close">CLOSE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string name="fajr_alarm">fajr_alarm</string>
+    <string name="zuhr_alarm">zuhr_alarm</string>
+    <string name="asar_alarm">asar_alarm</string>
+    <string name="maghrib_alarm">maghrib_alarm</string>
+    <string name="isha_alarm">isha_alarm</string>
+    <string name="fajr_alarm_time">fajr_alarm_time</string>
+    <string name="zuhr_alarm_time">zuhr_alarm_time</string>
+    <string name="asar_alarm_time">asar_alarm_time</string>
+    <string name="maghrib_alarm_time">maghrib_alarm_time</string>
+    <string name="isha_alarm_time">isha_alarm_time</string>
+    <string name="fajr_alarm_tone">fajr_alarm_tone</string>
+    <string name="zuhr_alarm_tone">zuhr_alarm_tone</string>
+    <string name="asar_alarm_tone">asar_alarm_tone</string>
+    <string name="maghrib_alarm_tone">maghrib_alarm_tone</string>
+    <string name="isha_alarm_tone">isha_alarm_tone</string>
+
+
+    <string name="fajr_notification">fajr_notification</string>
+    <string name="zuhr_notification">zuhr_notification</string>
+    <string name="asar_notification">asar_notification</string>
+    <string name="maghrib_notification">maghrib_notification</string>
+    <string name="isha_notification">isha_notification</string>
+    <string name="fajr_notification_last_time">fajr_notification_last_time</string>
+    <string name="zuhr_notification_last_time">zuhr_notification_last_time</string>
+    <string name="asar_notification_last_time">asar_notification_last_time</string>
+    <string name="maghrib_notification_last_time">maghrib_notification_last_time</string>
+    <string name="isha_notification_last_time">isha_notification_last_time</string>
+
+
+
+
+
+    <string-array name="salah_not_array">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+    <string-array name="salah_not_values">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+    <string-array name="salah_tone_array">
+        <item>Default</item>
+        <item>Loud Music</item>
+        <item>Mishary Azaan</item>
+        <item>Kaaba Azaan</item>
+    </string-array>
+    <string-array name="salah_tone_values">
+        <item>Default</item>
+        <item>Loud Music</item>
+        <item>Mishary Azaan</item>
+        <item>Kaaba Azaan</item>
+    </string-array>
+
+
+</resources>

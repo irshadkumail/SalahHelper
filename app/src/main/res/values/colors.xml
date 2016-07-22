@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CBB17</color>
+    <color name="colorPrimaryDark">#008000</color>
+    <color name="colorAccent">#087830</color>
+    <color name="lightGray">#b6b6b6</color>
+    <color name="noInternet">#e5e5e5</color>
+    <color name="mychoice">#087830</color>
+    <color name="vineGreen">#90ee90</color>
+    <color name="spanishGreen">#1d6660</color>
+
+</resources>

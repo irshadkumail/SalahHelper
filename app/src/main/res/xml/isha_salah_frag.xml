@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Isha Salah Alarm"
+        android:layout="@layout/preference_category">
+
+        <CheckBoxPreference
+            android:key="fakr_alarm"
+            android:title="Isha Alarm"></CheckBoxPreference>
+
+        <EditTextPreference android:title="Time"
+            android:key="isha_alarm_time"
+            android:summary="4:40PM"></EditTextPreference>
+
+        <ListPreference android:title="Alarm Tone"
+            android:key="isha_tone"
+            android:summary="Azaan"
+            android:entries="@array/salah_tone_array"
+            android:entryValues="@array/salah_tone_values"
+           
+            ></ListPreference>
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title=" Isha Salah Notification"
+        android:layout="@layout/preference_category_two"
+        >
+
+        <CheckBoxPreference
+            android:key="isha_notification"
+            android:title="Isha Notification"></CheckBoxPreference>
+
+        <ListPreference
+            android:key="isha_last_notification"
+            android:summary="15min"
+            android:entryValues="@array/salah_not_values"
+            android:entries="@array/salah_not_array"
+            android:title="Last Mins Notification"></ListPreference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
